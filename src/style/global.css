@@ -1,0 +1,31 @@
+:root{
+  --white: #F4F4F4;
+  --red: #EC2E45;
+  --black: #484848;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+ol,li{
+  list-style: none;
+}
+
+body{
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+}
+
+.container{
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
