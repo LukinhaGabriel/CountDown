@@ -15,7 +15,7 @@ export const Home = () => {
     <main>
       <div className="container">
         <div className="row-countdown">
-          <h1 className="title">Contagem regresiva para 2024</h1>
+          <h1 className="title">Contagem regressiva para 2024</h1>
           <div className="list-countdown">
             <div className="wrapper-countdown">
               <div className="number">{day < 10 ? `0${day}` : day}</div>
